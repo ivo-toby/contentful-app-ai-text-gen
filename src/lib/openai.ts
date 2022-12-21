@@ -13,7 +13,7 @@ export const autocomplete = async (
   const completionRequest = {
     model: "text-davinci-002",
     prompt,
-    temperature: 0.7,
+    temperature: 0.9,
     max_tokens: 500,
     top_p: 1.0,
     frequency_penalty: 0.0,
